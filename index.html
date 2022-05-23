@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shape Calculator</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Shape Calculator</h1>
+    <img src="./asset/headerImage.png">
+  </header>
+  <main>
+    <section>
+      <h2>Welcome to Shape Calculator</h2>
+      <h4>
+        Shape Calculator is an interactive web application. To the right you
+        will find the 3 step application. Follow the instructions in each
+        step. Clicking cancel will take you back to step 1. Enjoy!
+      </h4>
+      <p>
+        A small river named Duden flows by their place and supplies it with
+        the necessary regelialia. It is a paradisematic country, in which
+        roasted parts of sentences fly into your mouth.
+      </p>
+      <p>
+        Even the all-powerful Pointing has no control about the blind texts it
+        is an almost unorthographic life One day however a small line of blind
+        text by the name of Lorem Ipsum decided to leave for the far World of
+        Grammar. The Big Oxmox advised her not to do so, because there were
+        thousands of bad Commas.
+      </p>
+    </section>
+    <section id="dynamic">
+      <h3 id="step"></h3>
+      <p id="question"></p>
+      <div id="option">
+        <div id="step-1">
+          <div>
+            <input type="radio" name="Rectangle" id="Rectangle" value="Rectangle" />
+            <label for="Rectangle">Rectangle</label>
+          </div>
+          <div>
+            <input type="radio" name="Circle" id="Circle" value="Circle" />
+            <label for="Circle">Circle</label>
+          </div>
+          <div>
+            <input type="radio" name="Square" id="Square" value="Square" />
+            <label for="Square">Square</label>
+          </div>
+          <div>
+            <input type="radio" name="Ellipse" id="Ellipse" value="Ellipse" />
+            <label for="Ellipse">Ellipse</label>
+          </div>
+        </div>
+        <div id="step-2">
+          <div>
+            <label for="width" id="width">Width</label>
+            <input type="number" name="width" />
+          </div>
+          <div>
+            <label for="height" id="height">Height</label>
+            <input type="number" name="height" />
+          </div>
+        </div>
+        <div id="step-3"></div>
+      </div>
+      <div id="cta-container">
+        <button id="actionBtn">CTA</button>
+        <span id="cancelBtn">Cancel</span>
+      </div>
+    </section>
+    <aside>120 X 240 Ad (Vertical Banner)</aside>
+  </main>
+  <footer></footer>
+</body>
+
+</html>
